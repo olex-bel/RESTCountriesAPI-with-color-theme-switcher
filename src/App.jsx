@@ -27,7 +27,9 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+], {
+  basename: '/RESTCountriesAPI-with-color-theme-switcher',
+});
 
 function App() {
   return (
